@@ -1,6 +1,5 @@
-# sharepass
-# To run this, you will need to create sql database. I will upload the queries to create the database.
-# Edit Config class 
+To run this, you will need to create sql database. I will upload the queries to create the database.
+Edit Config class 
 DB_HOST = 'localhost' #server where you are hosting the database
 DB_NAME = 'sharepass',  #database name
 DB_USER = 'your username',
