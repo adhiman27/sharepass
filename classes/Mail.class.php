@@ -35,7 +35,7 @@ class Mail
     $mail->Port = 587;
    // $mail->SMTPDebug = 2;
 
-    $mail->From = 'abdhiman52@gmail.com';
+    $mail->From = 'email address';
 
     $mail->isHTML(true);
 
