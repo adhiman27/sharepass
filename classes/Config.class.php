@@ -9,10 +9,10 @@ class Config
 
   const DB_HOST = 'localhost',
         DB_NAME = 'sharepass',
-        DB_USER = 'Abhishek',
-        DB_PASS = 'TR6stebr',
+        DB_USER = 'your username',
+        DB_PASS = 'your password',
         SMTP_HOST = 'smtp.gmail.com',
-        SMTP_USER = 'abdhiman52@gmail.com',
-        SMTP_PASS = 'FLTechDesK!';
+        SMTP_USER = 'smtp user',
+        SMTP_PASS = 'smtp password';
 
 }
