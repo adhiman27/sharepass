@@ -1,9 +1,7 @@
-To run this, you will need to create sql database. I will upload the queries to create the database.
-Edit Config class 
-DB_HOST = 'localhost' #server where you are hosting the database
-DB_NAME = 'sharepass',  #database name
-DB_USER = 'your username',
-DB_PASS = 'your password',
-SMTP_HOST = 'smtp.gmail.com', #gmail smtp 
-SMTP_USER = 'smtp user',
-SMTP_PASS = 'smtp password'
+Xcoding pass is created to reduce the amount of clear text passwords stored in email and chat conversations by encrypting and generating a short lived link which can only be viewed for the selected time.
+End To End Encryption
+Both encryption and decryption are being made locally in the browser, the decryption key is not stored with Xcoding Pass
+Self destruction
+All messages have a fixed time to live and will be deleted automatically after expiration
+No accounts needed
+No additional information except the encrypted secret is stored in the database.
